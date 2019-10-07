@@ -1,2 +1,6 @@
-# javascript30
-30 Day Vanilla JavaScript Coding Challenge
+# 30 Day Vanilla JavaScript Coding Challenge
+
+> Click on the links below to access each App
+
+
+1. [JavaScript Drum Kit](https://aman-maharshi.github.io/javascript30/drum-kit/)
