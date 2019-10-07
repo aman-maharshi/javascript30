@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Drum Kit</title>
+    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam:400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="heading">
+        Online Drum Machine
+        <span>Click or Press the respective keys</span>
+    </div>
+    <main>
+        <div class="keys">
+            <div class="key" data-key="65">
+                <kbd>A</kbd>
+                <span class="sound">Clap</span>
+            </div>
+            <div class="key" data-key="83">
+                <kbd>S</kbd>
+                <span class="sound">Hihat</span>
+            </div>
+            <div class="key" data-key="68">
+                <kbd>D</kbd>
+                <span class="sound">Kick</span>
+            </div>
+            <div class="key" data-key="70">
+                <kbd>F</kbd>
+                <span class="sound">Snare</span>
+            </div>
+            <div class="key" data-key="71">
+                <kbd>G</kbd>
+                <span class="sound">Tom</span>
+            </div>
+            <!-- <div class="key" data-key="72">
+                <kbd>H</kbd>
+                <span class="sound">Openhat</span>
+            </div> -->
+
+        </div>
+
+        <audio data-key="65" src="./sounds/clap.mp3"></audio>
+        <audio data-key="83" src="./sounds/hihat.wav"></audio>
+        <audio data-key="68" src="./sounds/kick.wav"></audio>
+        <audio data-key="70" src="./sounds/snare.wav"></audio>
+        <audio data-key="71" src="./sounds/tom.wav"></audio>
+
+    </main>
+
+    <footer>
+        Coded by <a href="http://amanmaharshi.com/">Aman Maharshi</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
